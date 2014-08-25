@@ -701,3 +701,11 @@ a:focus {
     Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
     for you.
 */
+
+#qrcode-presentation {
+    float: right;
+}
+
+ol {
+    list-style-type: decimal;
+}
