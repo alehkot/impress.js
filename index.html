@@ -69,12 +69,13 @@
         will be positioned in point x = -1000px and y = -1500px of the presentation 'canvas'.
         It will not be rotated or scaled.
         -->
-      <div id="start" class="step slide" data-x="-1000" data-y="-1500">
+      <div id="start" class="step slide" data-x="-1500" data-y="-1500">
         <q>Hi guys,
         <img src="http://chart.apis.google.com/chart?chs=200x200&amp;cht=qr&amplchld=|1&amp;chl=http%3A%2F%2Fbit.ly%2Fdruphpet-aug-2014" alt="QRCode with the presentation URL" id="qrcode-presentation" />
+        <img src="https://puphpet.com/assets/v4/img/logo.png" alt="Puphpet logo" class="puphpet-logo" />
         </q>
-        <q>
-        This presentation is also available at <u>http://bit.ly/druphpet-aug-2014</u>
+        <q class="presentation-link-text">
+        This presentation is also available at<br /> <u>http://bit.ly/druphpet-aug-2014</u>
         </q>
       </div>
       <!--
@@ -90,7 +91,7 @@
         <q>A long time ago, in a galaxy far, far away....</q>
       </div>
       <div class="step slide" data-x="1000" data-y="-1500" data-rotate="90">
-        <q>To builds website there were enough to use PHP, MySQL and Apache.</q>
+        <q>To builds website there were enough to use PHP, MySQL and Apache...</q>
       </div>
       <div class="step slide" data-x="2000" data-y="-1500" data-rotate="180">
         <q>And there were no big problems to deploy websites.</q>
@@ -102,7 +103,7 @@
           <ul>
             <li>like <a href="http://www.denwer.ru/">Denwer</a></li>
             <li><a href="http://www.wampserver.com/en/">Wampserver</a></li>
-            <li>And others</li>
+            <li>and others...</li>
           </ul>
           to minimize kickstarting efforts.
         </q>
@@ -220,15 +221,14 @@
           <li>RabbitMQ</li>
         </ol>
       </div>
-      <div class="step slide" data-x="4000" data-y="1500" data-z="4000" data-rotate="90">
+      <div class="step slide slide-orly" data-x="4000" data-y="1500" data-z="4000" data-rotate="90">
         <q>
-          <p>O'rly?</p>
+          <img src="http://www.costumepop.com/~costumep/wp-content/uploads/2010/05/orly-owl-costume.jpg?d610cb" alt="orly" />
         </q>
       </div>
       <div class="step slide" data-x="5000" data-y="1500" data-z="4000" data-rotate="0">
         <q>
           <h1>Ya'rly. Puphpet for the rescue</h1>
-          <p><a href="https://puphpet.com">Puphpet</a></p>
           <ul>
             <li>VirtualBox</li>
             <li>Vagrant</li>
@@ -247,7 +247,7 @@
           </ul>
         </q>
       </div>
-      <div class="step slide" data-x="7000" data-y="1500" data-z="1000" data-rotate="360">
+      <div class="step slide slide-big-list" data-x="7000" data-y="1500" data-z="1000" data-rotate="360">
         <q>
           <p>Vagrant</p>
           <ul>
@@ -266,7 +266,7 @@
           <p>Puphpet is GUI for config.yaml</p>
         </q>
       </div>
-      <div class="step slide" data-x="5000" data-y="1500" data-z="1000" data-rotate="0" data-rotate-x="-90" data-rotate-y="40">
+      <div class="step slide slide-big-list" data-x="5000" data-y="1500" data-z="1000" data-rotate="0" data-rotate-x="-90" data-rotate-y="40">
         <q>    <p>Puppet</p>
           <ul>
             <li>Configuration management utility</li>
@@ -276,7 +276,7 @@
             <li>Model driven</li>
           </ul>      </q>
       </div>
-      <div class="step slide" data-x="6000" data-y="1500" data-z="1000" data-rotate="0" data-rotate-x="-90" data-rotate-y="40">
+      <div class="step slide slide-big-list" data-x="6000" data-y="1500" data-z="1000" data-rotate="0" data-rotate-x="-90" data-rotate-y="40">
         <q>
           <p>Vagrant uses Puppet to configure the system</p>
           <p>It iterates through nodes written in Ruby</p>
@@ -284,13 +284,12 @@
           <p>There are thousands of open-source modules available on Github</p>
         </q>
       </div>
-      <div class="step slide" data-x="7000" data-y="1500" data-z="1000" data-rotate="0" data-rotate-x="-90" data-rotate-y="40">
+      <div class="step slide slide-big-list" data-x="7000" data-y="1500" data-z="1000" data-rotate="0" data-rotate-x="-90" data-rotate-y="40">
         <q>
           <p>Puppet modules</p>
           <ul>
             <li>A list of modules is defined in Puppetfile</li>
-            <li>During provisioning modules are copied to /vagrant/puphpet folder</li>
-            <li>Modules can have dependencies</li>
+            <li>Modules files are synced</li>
             <li>Most of the modules has parameters listed in the source code</li>
           </ul>
         </q>
@@ -317,15 +316,15 @@
           </ul>
         </q>
       </div>
-      <div class="step slide" data-x="8000" data-y="1500" data-z="4000">
+      <div class="step slide slide-big-list" data-x="8000" data-y="1500" data-z="4000">
         <q>
           <p>Results</p>
           <ul>
-            <li>Unification of tools and practices</li>
-            <li>Easier for beginners to jump into the projects</li>
-            <li>Can have similar to prod environment</li>
+            <li>Unification of tools</li>
+            <li>Easier for beginners</li>
+            <li>Sync with Prod</li>
             <li>Isolated environment can be easily replaced</li>
-            <li>Learning of the existing integrations is easier</li>
+            <li>Learning of the existing integrations is always easier</li>
           </ul>
         </q>
       </div>
